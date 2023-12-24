@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: whitesmoke;
+}
+button.btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.container {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px black;
+}
+
+.container .iconbar {
+  background-color: rgb(43, 36, 36);
+  display: flex;
+  justify-content: flex-end;
+}
+.iconbar i {
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+  cursor: pointer;
+}
+.iconbar i:hover {
+  text-shadow: 2px 2px 2px black;
+}
+.container textarea {
+  width: 300px;
+  height: 100%;
+  color: white;
+  background: transparent;
+  padding: 5px;
+  resize: none;
+  border: none;
+  outline: none;
+}
+.container:hover {
+  box-shadow: 0px 4px 6px rgb(20, 19, 19);
+}
